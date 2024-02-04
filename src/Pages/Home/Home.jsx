@@ -6,7 +6,7 @@ const Home = () => {
         {/* Page content here */}
         <label
           htmlFor="my-drawer-2"
-          className="btn btn-primary drawer-button lg:hidden"
+          className="btn bg-cyan-950 text-white drawer-button lg:hidden"
         >
           Open drawer
         </label>
@@ -17,7 +17,7 @@ const Home = () => {
           aria-label="close sidebar"
           className="drawer-overlay"
         ></label>
-        <ul className="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
+        <ul className="menu p-4 w-80 min-h-full bg-cyan-950 text-white">
           {/* Sidebar content here */}
           <li>
             <a>Sidebar Item 1</a>
