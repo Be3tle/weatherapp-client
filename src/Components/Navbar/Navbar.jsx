@@ -67,14 +67,14 @@ const Navbar = () => {
         {user ? (
           <a
             onClick={handleLogOut}
-            className="btn bg-blue-500 text-white hover:bg-blue-700 border-0"
+            className="btn bg-cyan-800 text-white hover:bg-cyan-900 border-0"
           >
             Log Out
           </a>
         ) : (
           <a
             href="login"
-            className="btn bg-blue-500 text-white hover:bg-blue-700 border-0"
+            className="btn bg-cyan-800 text-white hover:bg-cyan-900 border-0"
           >
             Log In
           </a>
